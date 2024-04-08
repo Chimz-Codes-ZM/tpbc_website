@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+  --primary-color: #443353;
+  --primary-color-two: #4d3c5b;
+  --secondary-color: #f0eeed;
+  --tertiary-color: #fbf5ee;
+  --quaternary-color: #eceaed;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+.background-primary {
+    background-color: var(--primary-color);
+}
+
+.background-secondary {
+    background-color: #4d3c5b;
+}
+
+.text-primary {
+    color: var(--quaternary-color);
+}
+
+.text-secondary {
+    color: var(--primary-color-two);
+}
