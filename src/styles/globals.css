@@ -15,7 +15,8 @@
 }
 
 body {
-  background-color: var(--secondary-color);
+  font-family: Cormorant, sans-serif;
+  /* background-color: var(--secondary-color); */
 }
 
 .background-primary {
@@ -26,10 +27,18 @@ body {
     background-color: #4d3c5b;
 }
 
+.background-tertiary {
+  background-color: var(--quaternary-color);
+}
+
 .text-primary {
     color: var(--quaternary-color);
 }
 
 .text-secondary {
     color: var(--primary-color-two);
+}
+
+.event-card:nth-child(even) {
+  background-color: var(--tertiary-color); 
 }

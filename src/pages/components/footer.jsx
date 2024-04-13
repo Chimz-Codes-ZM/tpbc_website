@@ -4,7 +4,7 @@ import { navLinks } from "../data";
 
 const Footer = () => {
   return (
-    <div className="w-full min-h-36 background-primary text-primary px-12 p-8 grid grid-cols-3 gap-10">
+    <div className="w-full min-h-36 background-primary text-primary px-12 p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
       {/* Contact Information */}
       <div className="col-span-1 flex flex-col gap-6 p-4 ">
         <h1 className="text-center font-semibold text-3xl">Contact Us</h1>
