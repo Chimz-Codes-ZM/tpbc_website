@@ -24,11 +24,15 @@ body {
 }
 
 .background-secondary {
-    background-color: #4d3c5b;
+    background-color: var(--primary-color-two);
 }
 
 .background-tertiary {
   background-color: var(--quaternary-color);
+}
+
+.background-quaternary {
+  background-color: var(--secondary-color);
 }
 
 .text-primary {
